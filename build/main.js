@@ -35330,6 +35330,7 @@
                     }
                   }), " ", (0, t.jsx)("button",
                   {
+                    className: "primary",
                     onClick: function ()
                     {
                       return n.copyMerkleProofToClipboard()
