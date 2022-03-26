@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9fcb5d40d2.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>0xPunkyApes</title>
+  <link rel="icon" type="image/png" href="/build/images/apes.png" />
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="/build/main.css">
+  <link rel="stylesheet" href="/build/style.css">
+  <script src="/build/main.js"></script>
+  
+</head>
+<body>
+
+    <nav class="flex items-center justify-between flex-wrap p-6 fixed w-full z-10 top-0 navbg">
+		<div class="flex items-center flex-shrink-0 mr-6">
+			<a class="zoom" href="#">
+				<span class="text-2xl pl-2"><i class="em em-grinning"></i><font style="color: #fe6955;" class="evil neonText" size="6"> 0xPunkyApes NFT</font></span>
+			</a>
+		</div>
+
+		<div class="block lg:hidden">
+			<button id="nav-toggle" style="background-color: transparent;"class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-500 hover:border-gray-600">
+				<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+			</button>
+		</div>
+
+		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content" align="right">
+			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+				<li class="mr-3">
+					<a class="inline-block py-2 px-4 zoom" href="#" title="Coming..."><i class="fa-brands fa-discord" style="color:#e7fe00;"></i> 0xPunkyApes</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block py-2 px-4 zoom" href="https://twitter.com/0xPunkyApes" target="_blank"><i class="fa-brands fa-twitter" style="color:#e7fe00;"></i> 0xPunkyApes</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block py-2 px-4 zoom" href="#" title="Coming..."><i class="fa-brands fa-instagram" style="color:#e7fe00;"></i> 0xPunkyApes</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container shadow-lg mx-auto bg-white mt-24 md:mt-18">
+
+	</div>
+
+	<script>
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
+
+  <table id="home" background="/build/images/bg.png" border="0" style="background-repeat: no-repeat; background-position: right; background-size: 110%; border-radius: 20px 20px 0 0;" cellpadding="0" cellspacing="0" bgcolor="#fe6955" width="100%" align="center" data-aos="fade-down" data-aos-duration="800"> 
+      <tr>
+          <td>
+              <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                  <tr>
+                      <td height="180" align="center" valign="middle" colspan="2">
+                        <img src="build/images/apes-title.png">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td width="40%" class="onmobi">
+                          <img style="border-radius: 50%" class="zoom" src="build/images/apes.png" alt="apes"  width="90%">
+                      </td>
+                      <td width="60%">
+                          <font class="mighty" color="#ffffff" size="5">
+                            <b>WELCOME FAMS!</b>
+                          </font><br />
+                          <font class="mighty" color="#ffffff" size="4">
+                            Already familiar with apes stuff? You shouldn't skip this one! Discover 6.666 collections of 0xPunkyApes NFT artwork.
+                          </font><br />
+                          <br />
+                          <button class="navbg primary mighty" onclick=window.location.href="#minting-dapp">Mint NOW!</button>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          &nbsp;
+                      </td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+  </table>
+
+  <table id="collections" class=" navbg" border="0"  width="100%" cellpadding="0" cellspacing="0" bgcolor="#eaafc8" align="center">
+      <tr>
+          <td>
+              <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                  <tr>
+                      <td height="180" align="center" valign="middle" colspan="3">
+                              <font class="mighty" color="#292929" size="6">
+                                   <b>Collections</b>
+                              </font>
+                              <hr width="70" color="#292929">
+                      </td>
+                  </tr>
+                  <tr data-aos="fade-up" data-aos-duration="1000">
+                      <td width="33%">
+                          <a><img class="zoom" src="build/images/col1.png" alt="Service1"  width="100%"></a>
+                      </td>
+                      <td width="33%">
+                          <a><img class="zoom" src="build/images/col2.png" alt="Service1"  width="100%"></a>
+                      </td>
+                      <td width="33%">
+                          <a><img class="zoom" src="build/images/col3.png" alt="Service1"  width="100%"></a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          &nbsp;
+                      </td>
+                  </tr>
+                <tr>
+                    <td colspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+              </table>
+          </td>
+      </tr>
+  </table>
+
+  <table id="mint" border="0" width="100%" cellpadding="5" cellspacing="0" class="navbg primary " align="center">
+      <tr>
+          <td>
+            <main>
+                <div data-aos="fade-down" data-aos-duration="1000" id="minting-dapp""></div>
+              </main>
+          </td>
+          <tr>
+          <td align="center" valign="bottom">
+            <a href="#">
+              <font class="mighty" color="#ffffff" size="5"> BACK TO TOP </font>
+            </a>
+          </td>
+          <tr>
+            <td>
+              <font class="mighty" color="#ffffff"><h5>&nbsp;&nbsp;© 2022 0xPunkyApes</h5></font>
+            </td>
+        </tr>
+        </tr>
+      </tr>
+  </table>
+
+  <div class="gap">
+</div>
+
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
