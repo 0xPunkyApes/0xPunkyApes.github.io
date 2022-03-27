@@ -456,7 +456,7 @@ input[type=text] {
   --tw-border-opacity: 1;
   --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  background-color: rgb(11 255 255/var(--tw-bg-opacity));
+  background-color: rgb(114 114 114/var(--tw-bg-opacity));
   border-color: rgb(226 232 240/var(--tw-border-opacity));
   border-radius: 9999px;
   border-width: 1px;
