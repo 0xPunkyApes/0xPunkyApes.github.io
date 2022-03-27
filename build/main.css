@@ -210,19 +210,19 @@ textarea {
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #acacac;
+  color: #333333;
   opacity: 1
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #acacac;
+  color: #333333;
   opacity: 1
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #acacac;
+  color: #333333;
   opacity: 1
 }
 
@@ -430,7 +430,7 @@ button.primary {
   --tw-bg-opacity: 1;
   background-color: rgb(206 255 0/var(--tw-bg-opacity));
   border-width: 1px;
-  color: rgb(255 255 255/var(--tw-text-opacity));
+  color: rgb(72 91 100/var(--tw-text-opacity));
   background: -webkit-linear-gradient(to right, #e7fe00, #fe6955);
   background: linear-gradient(to right, #e7fe00, #fe6955)
 }
@@ -456,7 +456,7 @@ input[type=text] {
   --tw-border-opacity: 1;
   --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  background-color: rgb(11 255 255/var(--tw-bg-opacity));
   border-color: rgb(226 232 240/var(--tw-border-opacity));
   border-radius: 9999px;
   border-width: 1px;
