@@ -33968,7 +33968,7 @@
     }
     var ro = r(2003),
       no = r.n(ro);
-    const io = JSON.parse('["0xeAE53abE08bF2F33464aE9732e2D02cB1f80539C"]');
+    const io = JSON.parse('["0xeAE53abE08bF2F33464aE9732e2D02cB1f80539C","0xF0b971A106F0C8f94eda53805b5f8D8ee1852FE1","0xaD3B7D7b907654e7de43E63dE65eB8149BB9C450","0xeD7Ba6Ad146ca126BbAE4Ae0e65d89E338dAC7C7","0x501f40029028FF08A07248628c64c4e127cEa4b6","0x114b5DD44d09f798502493210A3Be7b485d256AB","0x115164776f257f3CFB43E2Dc97d4fc7E8a350844","0xe2802dadb3892bfd35b1895722a07840f2a5500b","0xd19749459dDC95FfC1EAc371b3D20792E967F1D5"]');
     const oo = {
       testnet:
       {
@@ -35330,7 +35330,6 @@
                     }
                   }), " ", (0, t.jsx)("button",
                   {
-                    className: "primary",
                     onClick: function ()
                     {
                       return n.copyMerkleProofToClipboard()
