@@ -657,7 +657,7 @@ label {
 
 #minting-dapp .collection-status>* .label {
   --tw-text-opacity: 1;
-  color: rgb(248 250 252/var(--tw-text-opacity));
+  color: rgb(255 161 0/var(--tw-text-opacity));
   font-size: .75rem;
   line-height: 1rem
 }
@@ -816,7 +816,7 @@ label {
 #minting-dapp .mint-widget .controls .mint-amount {
   --tw-text-opacity: 1;
   align-items: center;
-  color: rgb(248 250 252/var(--tw-text-opacity));
+  color: rgb(0 0 0/var(--tw-text-opacity));
   display: flex;
   font-weight: 600;
   justify-content: center;
